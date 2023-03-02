@@ -1,0 +1,81 @@
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("./backgroundpic.jpg");
+
+}
+
+header, main, footer {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rounded {
+    border-radius: 50px;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #111;
+    padding: 40px;
+    border-radius: 50px;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    
+}
+
+header img {
+    width: 196px;
+    height: 160px;
+    border-radius: 100%;
+}
+
+h1 {
+    margin-top: 0;
+
+}
+
+a {
+    color: red;
+}
+
+main > a{
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 32px;
+    margin: 32px;
+    border-radius: 32px;
+    
+    font-size: 32px;
+    text-decoration: none;
+}
+
+main > a:hover {
+    background-color: rgb(139, 21, 21);
+    color: white;
+}
+
+
+
+footer > a {
+    display: inline;
+    background-color: white;
+    color: #111;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 25%;
+}
+
+#insta-link:hover {
+    color:black;
+    background-color: red;
+
+}
